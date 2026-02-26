@@ -3,15 +3,10 @@
   "owner": {
     "name": "FluidityIQ"
   },
-  "metadata": {
-    "description": "FluidityIQ plugin marketplace for Claude Code",
-    "version": "1.0.0",
-    "pluginRoot": "./plugins"
-  },
   "plugins": [
     {
       "name": "patent-intelligence",
-      "source": "patent-intelligence",
+      "source": "./plugins/patent-intelligence",
       "description": "Patentability assessments, prior art searches, and invention feature mapping for IP law teams.",
       "version": "0.1.0",
       "author": {
