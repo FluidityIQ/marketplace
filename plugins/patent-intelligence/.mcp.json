@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "fluidityiq-patents": {
+      "type": "http",
+      "url": "https://patents.fluidityiq.ai/mcp",
+      "headers": {
+        "Authorization": "Bearer ${FLUIDITYIQ_API_KEY}"
+      }
+    }
+  }
+}
