@@ -1,0 +1,12 @@
+{
+  "name": "fluidityiq-marketplace",
+  "owner": {
+    "name": "FluidityIQ"
+  },
+  "metadata": {
+    "description": "FluidityIQ plugin marketplace for Claude Code",
+    "version": "1.0.0",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": []
+}
