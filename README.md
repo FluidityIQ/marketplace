@@ -6,4 +6,4 @@ Plugin marketplace for FluidityIQ's Claude plugins.
 
 | Plugin | Description | Version |
 |--------|-------------|---------|
-| [Patent Intelligence Plugin](plugins/patent-intelligence/) | Patentability assessments, prior art searches, and invention feature mapping for IP law teams | 0.1.0 |
+| [Patent Intelligence Plugin](plugins/patent-intelligence/) | Patentability assessments, prior art searches, and invention feature mapping for IP law teams | 0.2.0 |
