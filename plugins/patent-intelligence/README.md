@@ -63,12 +63,12 @@ The plugin requires the patent search MCP (FluidityIQ Patents MCP). See [CONNECT
 
 ## Commands
 
-### `/patent-intelligence:patentability` — Patentability Assessment
+### `/patent-intelligence:assess-patentability` — Patentability Assessment
 
 Conduct a full patentability assessment for an invention or idea. Gathers invention details, searches patent prior art via semantic search, maps features against references, and produces a structured report.
 
 ```
-/patent-intelligence:patentability
+/patent-intelligence:assess-patentability
 ```
 
 Accepts: invention description, Invention Disclosure Form, pasted text, or file upload. The command walks through a structured workflow:
@@ -92,7 +92,7 @@ Accepts: invention description, Invention Disclosure Form, pasted text, or file 
 ### Patentability Assessment for a New Invention
 
 1. Inventor describes their idea or uploads an Invention Disclosure Form
-2. Run `/patent-intelligence:patentability`
+2. Run `/patent-intelligence:assess-patentability`
 3. Provide context: technology field, known prior art, key features believed to be novel
 4. The skill runs 3-4 rounds of semantic patent search, harvesting terminology along the way
 5. References are classified (Anticipatory / Combinable / Background) and mapped against invention features
@@ -102,7 +102,7 @@ Accepts: invention description, Invention Disclosure Form, pasted text, or file 
 ### Quick Prior Art Check for an Idea
 
 1. Describe the idea in a few sentences
-2. Run `/patent-intelligence:patentability`
+2. Run `/patent-intelligence:assess-patentability`
 3. The skill identifies the point of novelty and runs a focused search
 4. Get a rapid assessment of whether similar patents exist and what features overlap
 5. Decide whether to invest in a full invention disclosure
@@ -110,7 +110,7 @@ Accepts: invention description, Invention Disclosure Form, pasted text, or file 
 ### Portfolio Gap Analysis
 
 1. Describe a technology area your team is working in
-2. Run `/patent-intelligence:patentability` for each inventive concept
+2. Run `/patent-intelligence:assess-patentability` for each inventive concept
 3. Compare feature coverage matrices across assessments
 4. Identify unprotected innovations and prioritize filing
 
@@ -168,7 +168,7 @@ patent-intelligence/
 ├── CONNECTORS.md
 ├── LICENSE
 ├── commands/
-│   └── patentability.md
+│   └── assess-patentability.md
 └── skills/
     └── patentability/
         └── SKILL.md
