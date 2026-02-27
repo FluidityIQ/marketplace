@@ -23,6 +23,28 @@ FluidityIQ Patents MCP provides two capabilities used by this plugin:
 
 The connection is pre-configured in `.mcp.json`. The plugin will not function without it.
 
+#### Authentication
+
+FluidityIQ Patents MCP supports two authentication schemes:
+
+- **Default (OAuth):** Out-of-the-box, no extra configuration is needed. The MCP client discovers the authorization server (RFC 8414) and handles the OAuth flow. The `.mcp.json` shipped with the plugin uses only the server URL; the client completes authentication interactively.
+
+- **API key (org-wide):** For organizations deploying via service accounts or CI, you can use an API key instead of OAuth. Override the default config in `.mcp.json` by adding an `Authorization` header and set the `FLUIDITYIQ_API_KEY` environment variable to your API key:
+
+```json
+{
+  "mcpServers": {
+    "fluidityiq-patents": {
+      "type": "http",
+      "url": "https://patents.fluidityiq.ai/mcp",
+      "headers": {
+        "Authorization": "Bearer ${FLUIDITYIQ_API_KEY}"
+      }
+    }
+  }
+}
+```
+
 ## Adding connectors
 
 To add a connector, update `.mcp.json` at the plugin root with the server configuration:
