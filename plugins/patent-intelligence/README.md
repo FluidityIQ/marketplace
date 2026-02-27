@@ -27,7 +27,7 @@ claude plugins add FluidityIQ/marketplace
 
 ### 2. Configure your Patent Search MCP
 
-The plugin requires a patent search MCP server that provides semantic search and patent details retrieval. Configure the connection in `.mcp.json` at the plugin root. See [CONNECTORS.md](CONNECTORS.md) for details on the required capabilities.
+The plugin requires a patent search MCP server that provides semantic search and patent details retrieval. Configure the connection in `.mcp.json` at the plugin root. Authentication is handled automatically via OAuth (auto-discovery); for org-wide or CI deployments using an API key instead, see [CONNECTORS.md](CONNECTORS.md) for the API key configuration.
 
 ### 3. Configure your settings (optional)
 
