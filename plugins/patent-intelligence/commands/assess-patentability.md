@@ -1,9 +1,8 @@
 ---
 description: Conduct a patentability assessment — gather invention details, search patent prior art, map features, and generate a structured report
-argument-hint: " "
 ---
 
-# /patentability -- Patentability Assessment
+# /assess-patentability -- Assess Patentability
 
 > If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../CONNECTORS.md).
 
@@ -14,7 +13,7 @@ Conduct a patentability assessment for an invention or idea. Searches patent pri
 ## Invocation
 
 ```
-/patent-intelligence:patentability
+/patent-intelligence:assess-patentability
 ```
 
 Accepts: invention description, Invention Disclosure Form (IDF), pasted text, or file upload. Will ask clarifying questions to gather required details before searching.
