@@ -6,7 +6,12 @@
   "plugins": [
     {
       "name": "patent-intelligence",
-      "source": "./plugins/patent-intelligence",
+      "source": {
+        "github": {
+          "repo": "FluidityIQ/patent-intelligence-plugin",
+          "ref": "main"
+        }
+      },
       "description": "Patentability assessments, prior art searches, and invention feature mapping for IP law teams."
     }
   ]
