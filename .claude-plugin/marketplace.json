@@ -11,7 +11,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/FluidityIQ/patent-intelligence-plugin.git",
-        "ref": "v0.4.0"
+        "ref": "v0.5.0"
       },
       "description": "Patentability assessments, prior art searches, and invention feature mapping for IP law teams."
     }
